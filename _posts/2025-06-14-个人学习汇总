@@ -1,0 +1,28 @@
+---
+layout:     post   				    # 使用的布局（不需要改）
+title:      用virtualbox+vagrant快速搭建虚拟环境-2026-06-14 				# 标题 
+subtitle:   运维 #副标题
+date:       2026-06-14 				# 时间
+author:     Apr1st 						# 作者
+header-img: img/rien20260612.jpg 	#这篇文章标题背景图片
+catalog: true 						# 是否归档
+tags:								#标签
+    - VirtualBox
+    - Vagrant
+    
+---
+## Hey
+
+
+比vmware更方便的虚拟环境搭建方式
+1.下载VirtualBox: https://www.virtualbox.org/
+2.下载vagrant: https://www.vagrantup.com/
+vmware需要安装镜像,但vagrant只需要一个指令就可以了(ps: 感觉有点类似docker部署容器呀),检查可安装的镜像: https://app.vagrantup.com/boxes/search
+
+3.空文件下执行vagrant init centos/7 初始文件
+4.vagrant up 编译加载系统
+5.vagrant ssh 登录centos/linux
+-->可以借助图形化操作页面
+
+
+
